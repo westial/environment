@@ -5,7 +5,7 @@ namespace Environment;
 
 class Config extends Singleton
 {
-    private $settings;
+    protected $settings;
 
     public function get($setting)
     {
