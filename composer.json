@@ -1,0 +1,30 @@
+{
+    "name": "westial/environment",
+    "description": "Permanent environment container",
+    "authors": [
+        {
+            "name": "Jaume Mila",
+            "email": "jaume@westial.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Environment\\":
+            [
+                "src",
+                "src/Contract"
+            ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\Environment\\":
+            [
+                "tests"
+            ]
+        }
+    }
+}
