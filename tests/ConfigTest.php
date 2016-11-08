@@ -5,7 +5,7 @@ namespace Test\Environment;
 
 use Environment\Config;
 
-class TestConfig extends \PHPUnit_Framework_TestCase
+class ConfigTest extends \PHPUnit_Framework_TestCase
 {
     function testSingletonConfig()
     {

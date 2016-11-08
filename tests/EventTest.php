@@ -5,7 +5,7 @@ namespace Test\Environment;
 
 use Environment\Notifier;
 
-class TestEvent extends \PHPUnit_Framework_TestCase
+class EventTest extends \PHPUnit_Framework_TestCase
 {
 
     function testEventManagerDifferentEvents()
